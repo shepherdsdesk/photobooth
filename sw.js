@@ -1,6 +1,6 @@
 // 한 번 접속하면 앱 파일을 기기에 저장해 두고, 이후 인터넷 없이도 열리게 한다.
 // 앱을 수정했다면 아래 버전 숫자를 올려야 태블릿에 새 버전이 반영된다.
-const CACHE = 'photobooth-v1';
+const CACHE = 'photobooth-v2';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
